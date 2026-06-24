@@ -1,13 +1,9 @@
-# =============================
-# Dependencies
-# =============================
+
 node_modules/
 .pnp
 .pnp.js
 
-# =============================
-# Environment variables  ← CRITICAL: never commit secrets
-# =============================
+
 .env
 .env.local
 .env.development
@@ -18,9 +14,7 @@ node_modules/
 .env.production.local
 .env.*.local
 
-# =============================
-# Logs
-# =============================
+
 logs/
 *.log
 npm-debug.log*
@@ -28,9 +22,7 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# =============================
-# Runtime & temp files
-# =============================
+
 *.pid
 *.seed
 *.pid.lock
@@ -46,22 +38,16 @@ dist/
 build/
 out/
 
-# =============================
-# Testing & coverage
-# =============================
+
 coverage/
 .nyc_output/
 
-# =============================
-# Database files
-# =============================
+
 *.sqlite
 *.sqlite3
 *.db
 
-# =============================
-# Editor & OS files
-# =============================
+
 .vscode/*
 !.vscode/extensions.json
 .idea/
